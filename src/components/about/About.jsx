@@ -35,13 +35,13 @@ const About = () => {
               <small>10+ Projects</small>
             </article>
           </div>
-        </div>
-        
-        <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo quod impedit deleniti magnam, minima, totam sunt tenetur beatae amet vel ducimus natus, tempora animi dolorum eos? Earum asperiores voluptatem iure!
-        </p>
+          
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo quod impedit deleniti magnam, minima, totam sunt tenetur beatae amet vel ducimus natus, tempora animi dolorum eos? Earum asperiores voluptatem iure!
+          </p>
 
-        <a href="#contact" className='btn btn-primary'>Let's talk</a>
+          <a href="#contact" className='btn btn-primary'>Let's talk</a>
+        </div>
       </div>
     </section>
   )
