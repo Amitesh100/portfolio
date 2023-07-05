@@ -5,6 +5,29 @@ import AVTR2 from '../../assets/avatar2.jpg'
 import AVTR3 from '../../assets/avatar3.jpg'
 import AVTR4 from '../../assets/avatar4.jpg'
 
+const data = [
+  {
+    avatar: AVTR1,
+    name: "Sneha Paul",
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed nam eveniet provident quidem et accusantium possimus, magni alias blanditiis aspernatur asperiores repellendus sequi, ratione quisquam dicta quod sunt velit!'
+  },
+  {
+    avatar: AVTR2,
+    name: "Helena Litz",
+    review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam deleniti qui sequi tempora rem, cum, pariatur eligendi iure quibusdam velit maxime reprehenderit, et neque aliquam placeat aut alias ut fugit!'
+  },
+  {
+    avatar: AVTR3,
+    name: "Rachele Parkton",
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed nam eveniet provident quidem et accusantium possimus, magni alias blanditiis aspernatur asperiores repellendus sequi, ratione quisquam dicta quod sunt velit!'
+  },
+  {
+    avatar: AVTR4,
+    name: "Kinderson Gaultella",
+    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed nam eveniet provident quidem et accusantium possimus, magni alias blanditiis aspernatur asperiores repellendus sequi, ratione quisquam dicta quod sunt velit!'
+  }
+]
+
 const Testimonials = () => {
   return (
     <section id='testimonials'>
@@ -12,42 +35,19 @@ const Testimonials = () => {
       <h2>Testimonials</h2>
       
       <div className="container testimonials__container">
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar One" />
-          </div>
-          <h5 className="client__name">Sneha Paul</h5>
-          <small className="client__review">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae qui dicta facilis corrupti cumque cum vero quos rerum. Excepturi itaque dolorum sapiente. Illum excepturi sed odit beatae, temporibus odio rem.
-          </small>
-        </article>
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar One" />
-          </div>
-          <h5 className="client__name">Sneha Paul</h5>
-          <small className="client__review">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae qui dicta facilis corrupti cumque cum vero quos rerum. Excepturi itaque dolorum sapiente. Illum excepturi sed odit beatae, temporibus odio rem.
-          </small>
-        </article>
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar One" />
-          </div>
-          <h5 className="client__name">Sneha Paul</h5>
-          <small className="client__review">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae qui dicta facilis corrupti cumque cum vero quos rerum. Excepturi itaque dolorum sapiente. Illum excepturi sed odit beatae, temporibus odio rem.
-          </small>
-        </article>
-        <article className="testimonial">
-          <div className="client__avatar">
-            <img src={AVTR1} alt="Avatar One" />
-          </div>
-          <h5 className="client__name">Sneha Paul</h5>
-          <small className="client__review">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae qui dicta facilis corrupti cumque cum vero quos rerum. Excepturi itaque dolorum sapiente. Illum excepturi sed odit beatae, temporibus odio rem.
-          </small>
-        </article>
+        {
+          data.map(({avatar, name, review}, index) => {
+            return (
+              <article className="testimonial">
+              <div className="client__avatar">
+                <img src={avatar} alt={name} />
+              </div>
+              <h5 className="client__name">{name}</h5>
+              <small className="client__review">{review}</small>
+            </article>
+            )
+          })
+        }
       </div>
     </section>
   )
