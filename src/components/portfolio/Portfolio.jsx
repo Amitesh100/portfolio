@@ -13,21 +13,21 @@ const data = [
     image: IMG2,
     title: 'Blog Site',
     github: 'https://github.com/Amitesh100/blog-site',
-    demo: '#'
+    demo: 'https://d9nqqwcssctr8.cloudfront.net/wp-content/uploads/2017/08/10142423/we-havent-arrived-yet-16x9.jpg'
   },
   {
     id: 1,
     image: IMG3,
     title: 'Slam Book',
     github: 'https://github.com/Amitesh100/slam-book',
-    demo: '#'
+    demo: 'https://d9nqqwcssctr8.cloudfront.net/wp-content/uploads/2017/08/10142423/we-havent-arrived-yet-16x9.jpg'
   },
   {
     id: 1,
     image: IMG1,
     title: 'Rocket Missions Project',
     github: 'https://github.com/Amitesh100/nasa-project',
-    demo: '#'
+    demo: 'https://d9nqqwcssctr8.cloudfront.net/wp-content/uploads/2017/08/10142423/we-havent-arrived-yet-16x9.jpg'
   }
   // {
   //   id: 1,
