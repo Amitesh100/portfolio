@@ -17,22 +17,22 @@ const data = [
   {
     avatar: AVTR1,
     name: "Sneha Paul",
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed nam eveniet provident quidem et accusantium possimus, magni alias blanditiis aspernatur asperiores repellendus sequi, ratione quisquam dicta quod sunt velit!'
+    review: 'I don\'t know this man. He\'s just using my name. Even the image shown here isn\'t mine'
   },
   {
     avatar: AVTR2,
     name: "Helena Litz",
-    review: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam deleniti qui sequi tempora rem, cum, pariatur eligendi iure quibusdam velit maxime reprehenderit, et neque aliquam placeat aut alias ut fugit!'
+    review: 'Mera bhi wohi kathan rhega, jayda dhiyan na dein, aage badhein'
   },
   {
     avatar: AVTR3,
     name: "Rachele Parkton",
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed nam eveniet provident quidem et accusantium possimus, magni alias blanditiis aspernatur asperiores repellendus sequi, ratione quisquam dicta quod sunt velit!'
+    review: 'Did\'t you heard... Move ahead'
   },
   {
     avatar: AVTR4,
     name: "Kinderson Gaultella",
-    review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore sed nam eveniet provident quidem et accusantium possimus, magni alias blanditiis aspernatur asperiores repellendus sequi, ratione quisquam dicta quod sunt velit!'
+    review: 'So, I\'m the last one. If you again swipe, then you are going to get bored.'
   }
 ]
 

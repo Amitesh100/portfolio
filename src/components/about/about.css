@@ -17,12 +17,12 @@
 .about__me-image {
    border-radius: 2rem;
    overflow: hidden;
-   transform: rotate(5deg);
+   transform: scale(0.7);
    transition: var(--transition);
 }
 
 .about__me-image:hover {
-   transform: rotate(0deg);
+   transform: scale(1);
 }
 
 .about__cards {
